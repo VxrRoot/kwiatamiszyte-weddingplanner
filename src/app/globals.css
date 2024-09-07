@@ -6,6 +6,7 @@
   --creme: #f6ecea;
   --text-dark: #191716;
   --primary: #694e3f;
+  --primary: #57402f;
 }
 
 body {
@@ -30,4 +31,9 @@ h2 {
 
 p {
   @apply text-xl;
+}
+
+.border-rouned-top {
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
 }
