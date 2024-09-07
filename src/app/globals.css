@@ -5,6 +5,7 @@
 :root {
   --creme: #f6ecea;
   --text-dark: #191716;
+  --primary: #57402F;
 }
 
 body {
@@ -17,4 +18,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.border-rouned-top{
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
 }
