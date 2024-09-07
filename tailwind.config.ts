@@ -13,6 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         creme: "var(--creme)",
         textDark: "var(--text-dark)",
+        primary: "var(--primary)",
       },
     },
   },

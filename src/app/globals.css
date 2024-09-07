@@ -5,7 +5,8 @@
 :root {
   --creme: #f6ecea;
   --text-dark: #191716;
-  --primary: #57402F;
+  --primary: #694e3f;
+  --primary: #57402f;
 }
 
 body {
@@ -14,13 +15,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.border-logo {
+  border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
 
-.border-rouned-top{
+h2 {
+  @apply lg:text-4xl text-2xl;
+}
+
+p {
+  @apply text-xl;
+}
+
+.border-rouned-top {
   border-top-left-radius: 10rem;
   border-top-right-radius: 10rem;
 }
