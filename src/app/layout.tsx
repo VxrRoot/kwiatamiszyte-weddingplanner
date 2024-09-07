@@ -4,6 +4,7 @@ import "./globals.css";
 import { Libre_Caslon_Display, Libre_Caslon_Text } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Preloader from "@/components/Preloader/Preloader";
 
 const isProduction = process.env.NEXT_PUBLIC_ENV === "production";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${libreDisplay.className} antialiased`}>
+        <Preloader />
         <Header />
         {children}
         <Footer />
