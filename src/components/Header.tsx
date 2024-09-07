@@ -1,10 +1,14 @@
 import ContainerLayout from "@/layouts/ContainerLayout";
-import React from "react";
+import dynamic from "next/dynamic";
+
+const Nav = dynamic(() => import("./Nav"), { ssr: false });
 
 const Header = () => {
   return (
-    <header>
-      <ContainerLayout>ello</ContainerLayout>
+    <header className="absolute top-0 left-0 w-full z-20">
+      <ContainerLayout>
+        <Nav />
+      </ContainerLayout>
     </header>
   );
 };
