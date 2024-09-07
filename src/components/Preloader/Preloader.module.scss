@@ -1,0 +1,40 @@
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    background-color: var(--creme);
+    flex-direction: column;
+
+    &__svg__line {
+        fill: none;
+        stroke: var(--primary);
+        stroke-width: 2;
+        stroke-dasharray: 500;
+        animation: loading-animation infinite 2.5s linear;
+    }
+
+    &__text {
+        font-size: 2rem;
+    }
+
+    &_hidden {
+        transition: 1s;
+        opacity: 0;
+    }
+    &_notdisplayed {
+        display: none !important;
+    }
+}
+
+@keyframes loading-animation {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
