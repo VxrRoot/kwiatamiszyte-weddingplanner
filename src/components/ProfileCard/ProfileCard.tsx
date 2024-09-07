@@ -29,7 +29,7 @@ export const ProfileCard: React.FC<ProfileCardProps> = ({
             alt={`${name}'s photo`}
           />
         </CardItem>
-        <CardItem as="div" translateZ="30" className="bg-white h-[13rem]">
+        <CardItem as="div" translateZ="30" className="bg-white h-[13.5rem]">
           <CardItem
             as="div"
             translateZ="30"
@@ -47,7 +47,7 @@ export const ProfileCard: React.FC<ProfileCardProps> = ({
           <CardItem
             as="p"
             translateZ="30"
-            className="text-primary text-center max-w-sm mt-2 pb-8 px-8 text-md"
+            className="text-primary text-center max-w-sm mt-2 pb-10 px-8 text-md"
           >
             {description}
           </CardItem>
