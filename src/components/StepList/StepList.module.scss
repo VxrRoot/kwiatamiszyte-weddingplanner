@@ -1,10 +1,10 @@
 @mixin breakpoint($point) {
     @if $point == big {
-        @media screen and (min-width: 601px) {
+        @media screen and (min-width: 701px) {
             @content;
         }
     } @else if $point == small {
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 700px) {
             @content;
         }
     }
@@ -46,12 +46,15 @@ $circlePaddingLarge: 5px;
 
     .icon {
         border-radius: 50%;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex: 0 0 auto;
+        border: 2px solid var(--primary);
 
-        img {
-            width: 100%;
-            height: 100%;
+        svg {
+            width: 50%;
+            aspect-ratio: 1;
         }
     }
 

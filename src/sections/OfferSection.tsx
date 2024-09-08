@@ -9,13 +9,13 @@ const OfferSection = () => {
   return (
     <section className="pt-40 pb-32">
       <div className="border-t border-primary w-full relative">
-        <h2 className="uppercase absolute left-1/2 whitespace-nowrap -translate-y-1/2 bg-creme lg:text-4xl  text-2xl -translate-x-1/2 lg:px-10 px-4">
+        <h2 className="uppercase absolute left-1/2 whitespace-nowrap -translate-y-1/2 bg-creme lg:text-4xl text-primary  text-2xl -translate-x-1/2 lg:px-10 px-4">
           Poznaj naszą ofertę
         </h2>
       </div>
       <div>
         <ContainerLayout>
-          <div className="flex flex-col lg:flex-row pt-40">
+          <div className="flex flex-col lg:flex-row pt:12 md:pt-40">
             <div className="flex-1 lg:pr-20 pt-20 text-primary">
               <h2 className="mb-14 font-semibold">
                 KOMPLEKSOWA ORGANIZACJA ŚLUBU

@@ -22,7 +22,7 @@ function HeroSlider() {
   };
   return (
     <div className="slider-container w-full h-full absolute top-0 left-0 ">
-      <div className="absolute top-0 left-0 z-10 bg-black/50 w-full h-full" />
+      <div className="absolute top-0 left-0 z-10 bg-gradient-to-b from-[#00000054] to-[#000000b7] w-full h-full " />
 
       <Slider {...settings} className="h-full w-full">
         <div className="h-screen w-full relative ">

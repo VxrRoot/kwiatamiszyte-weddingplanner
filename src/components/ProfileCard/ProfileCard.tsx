@@ -29,7 +29,7 @@ export const ProfileCard: React.FC<ProfileCardProps> = ({
             alt={`${name}'s photo`}
           />
         </CardItem>
-        <CardItem as="div" translateZ="30" className="bg-white h-[13.5rem]">
+        <CardItem as="div" translateZ="30" className="bg-[#F9F5F4] h-[13.5rem]">
           <CardItem
             as="div"
             translateZ="30"

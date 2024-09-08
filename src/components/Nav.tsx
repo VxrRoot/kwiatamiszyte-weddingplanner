@@ -24,10 +24,10 @@ function Nav() {
     <nav className="w-full h-full flex">
       <div className="hidden lg:flex text-white w-full ">
         <div className="flex-1 flex items-center justify-around">
-          <Link href="#" className="uppercase text-2xl font-bold">
+          <Link href="#" className="uppercase text-xl font-bold">
             O nas
           </Link>
-          <Link href="#" className="uppercase text-2xl font-bold">
+          <Link href="#" className="uppercase text-xl font-bold">
             Nasz zespół
           </Link>
         </div>
@@ -37,10 +37,10 @@ function Nav() {
           </div>
         </div>
         <div className="flex-1 flex items-center justify-around">
-          <Link href="#" className="uppercase text-2xl font-bold">
+          <Link href="#" className="uppercase text-xl font-bold">
             Usługi
           </Link>
-          <Link href="#" className="uppercase text-2xl font-bold">
+          <Link href="#" className="uppercase text-xl font-bold">
             Kontakt
           </Link>
         </div>
@@ -52,16 +52,16 @@ function Nav() {
         }`}
       >
         <div className="flex flex-col gap-20">
-          <Link href="#" className="uppercase text-2xl font-bold text-center">
+          <Link href="#" className="uppercase text-xl font-bold text-center">
             O nas
           </Link>
-          <Link href="#" className="uppercase text-2xl font-bold text-center">
+          <Link href="#" className="uppercase text-xl font-bold text-center">
             Nasz zespół
           </Link>
-          <Link href="#" className="uppercase text-2xl font-bold text-center">
+          <Link href="#" className="uppercase text-xl font-bold text-center">
             Usługi
           </Link>
-          <Link href="#" className="uppercase text-2xl font-bold text-center">
+          <Link href="#" className="uppercase text-xl font-bold text-center">
             Kontakt
           </Link>
         </div>

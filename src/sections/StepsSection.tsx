@@ -5,7 +5,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="pb-40">
       <ContainerLayout>
         <h1 className="text-5xl">
         </h1>
