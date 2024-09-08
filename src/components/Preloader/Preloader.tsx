@@ -38,8 +38,10 @@ const Preloader = () => {
           strokeWidth="4.16667"
         ></path>
       </svg>
-      <p className={`${styles.preloader__text} text-6xl`}>Kwiatami Szyte</p>
-      <p>Wedding planer</p>
+      <div className="animate-pulse text-center">
+        <p className={`${styles.preloader__text} text-6xl`}>Kwiatami Szyte</p>
+        <p>Wedding planer</p>
+      </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ const NumbersSection = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="text-primary pb-40 mb-40 border-b border-primary">
+    <section className="text-primary pb-8 pt-16">
       <ContainerLayout>
         <h2 className="text-center mb-20 text-5xl">
           Dlaczego Warto Nam Zaufać?

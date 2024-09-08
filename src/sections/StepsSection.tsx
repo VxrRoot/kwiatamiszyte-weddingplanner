@@ -15,7 +15,9 @@ const HeroSection = () => {
             "Przeprowadzimy Was przez cały proces organizacji ślubu i wesela",
           ]}
         />
+        <div className="md:px-8">
         <StepList/>
+        </div>
       </ContainerLayout>
     </section>
   );

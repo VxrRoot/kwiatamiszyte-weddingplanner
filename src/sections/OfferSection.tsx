@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const OfferSection = () => {
   return (
-    <section className="py-40">
+    <section className="pt-40 pb-32">
       <div className="border-t border-primary w-full relative">
         <h2 className="uppercase absolute left-1/2 whitespace-nowrap -translate-y-1/2 bg-creme lg:text-4xl  text-2xl -translate-x-1/2 lg:px-10 px-4">
           Poznaj naszą ofertę
@@ -43,10 +43,10 @@ const OfferSection = () => {
             </div>
           </div>
         </ContainerLayout>
-        <div className="bg-primary pt-72 pb-40 -mt-32">
+        <div className="bg-primary pt-72  -mt-32">
           <ContainerLayout>
-            <div className="flex flex-col lg:flex-row ">
-              <div className="flex-1 order-2 lg:order-1 pt-20 lg:pt-0">
+            <div className="flex flex-col lg:flex-row translate-y-[13rem] -mt-[20rem] mb-8">
+              <div className="flex-1 order-2 lg:order-1 pt-20 lg:pt-0 ">
                 <Image
                   alt=""
                   src={offerTwoImg}
