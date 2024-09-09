@@ -21,7 +21,7 @@ function HeroSlider() {
     waitForAnimate: false,
   };
   return (
-    <div className="slider-container w-full h-full absolute top-0 left-0 ">
+    <div className="slider-container w-full h-full absolute top-0 left-0 overflow-hidden">
       <div className="absolute top-0 left-0 z-10 bg-gradient-to-b from-[#00000054] to-[#000000b7] w-full h-full " />
 
       <Slider {...settings} className="h-full w-full">
@@ -30,7 +30,7 @@ function HeroSlider() {
             priority
             src={slide1}
             alt=""
-            className="object-bottom object-cover w-full h-screen "
+            className="object-bottom object-cover w-full h-full "
           />
         </div>
         <div className="h-screen w-full relative ">
@@ -38,7 +38,7 @@ function HeroSlider() {
             priority
             src={slide2}
             alt=""
-            className="lg:object-[60%] object-cover w-full h-screen "
+            className="lg:object-[60%] object-cover w-full h-full "
           />
         </div>
       </Slider>
