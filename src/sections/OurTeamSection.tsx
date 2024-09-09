@@ -1,16 +1,14 @@
 "use client";
-import { FlipWords } from "@/components/FlipWords";
+import Lines from "@/components/Lines";
 import { ProfileCard } from "@/components/ProfileCard/ProfileCard";
 import FloristIcon from "@/icons/FloristIcon";
 import HairDresserIcon from "@/icons/HairDresserIcon";
 import PhotographIcon from "@/icons/PhotographIcon";
 import ContainerLayout from "@/layouts/ContainerLayout";
-import React from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import ania from "../../public/ania.png";
-import karolina from "../../public/karolina.png";
 import anita from "../../public/anita.png";
-import Lines from "@/components/Lines";
+import karolina from "../../public/karolina.png";
 
 const OurTeamSection = () => {
   const teamMembers = [
@@ -52,12 +50,10 @@ const OurTeamSection = () => {
   };
 
   return (
-    <section className="relative">
+    <section className="relative" id="nasz-zespol">
       <Lines />
       <ContainerLayout>
-        <h2 className="text-center text-primary pb-32 text-5xl">
-          Nasz zespół
-        </h2>
+        <h2 className="text-center text-primary pb-32 text-5xl">Nasz zespół</h2>
         <div className="flex justify-center gap-20 flex-wrap">
           {teamMembers.map((member, index) => (
             <motion.div

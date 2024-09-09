@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import { Libre_Caslon_Display, Libre_Caslon_Text } from "next/font/google";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import Preloader from "@/components/Preloader/Preloader";
+import type { Metadata } from "next";
+import { Libre_Caslon_Display } from "next/font/google";
+import "./globals.css";
 
 const isProduction = process.env.NEXT_PUBLIC_ENV === "production";
 

@@ -91,12 +91,14 @@ const TestimonialsSlider: React.FC = () => {
 
   return (
     <div className="w-full flex justify-center items-center ">
-      <div className="relative w-full md:w-[60rem] md:h-[35rem] h-[20rem]">
+      <div className="relative w-full md:w-[60rem] md:h-[35rem] ">
         <div className="md:w-[35rem] w-full h-[35rem] bg-[#F9F5F4] z-10 md:p-8 p-4">
-          <h2 className="text-primary ml-2 text-5xl md:text-6xl">Zrealizowane <br /> Marzenia</h2>
+          <h2 className="text-primary ml-2 text-5xl md:text-6xl">
+            Zrealizowane <br /> Marzenia
+          </h2>
           <Slider
             {...mainSliderSettings}
-            ref={(slider: unknown) => setMainSlider(slider)}
+            ref={(slider) => setMainSlider(slider)}
             className="[&_.slick-track]:flex [&_.slick-track]:gap-4 cursor-pointer py-16"
           >
             {opinions.map(({ text, id, author }, idx) => (
@@ -121,11 +123,11 @@ const TestimonialsSlider: React.FC = () => {
         </div>
 
         {/* Second Slider for images */}
-        <div className=" md:block hidden">
+        <div className="md:block bg-[#F9F5F4] md:bg-transparent">
           <Slider
             {...imageSliderSettings}
-            ref={(slider: unknown) => setImageSlider(slider)}
-            className="current-slide-image relative w-full md:absolute md:-top-[40rem] md:left-[25rem] md:w-[700px] md:h-[40rem] z-[-1]"
+            ref={(slider) => setImageSlider(slider)}
+            className="current-slide-image relative w-full md:absolute md:-top-[40rem] md:left-[25rem] md:w-[700px] md:h-[40rem] md:z-[-1] p-10 md:p-0 -mt-20 md:mt-0"
           >
             {opinions.map(({ img, author }, idx) => (
               <div key={idx} className="w-[700px] h-[43rem] mt-4">
