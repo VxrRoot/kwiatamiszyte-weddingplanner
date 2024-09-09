@@ -15,6 +15,11 @@ const HeroSection = () => {
             KOMPLEKSOWA ORGANIZACJA ŚLUBÓW MARZEŃ
           </h1>
         </div>
+        <div className="w-[24px] h-[36px] border-2 rounded-lg border-white mx-auto mt-20 z-30 absolute left-1/2 lg:bottom-[60px] bottom-[30px] flex justify-center">
+          <div
+            className={`w-0.5 h-4 bg-white rounded-full absolute top-2 animate-bounce`}
+          />
+        </div>
       </ContainerLayout>
     </section>
   );

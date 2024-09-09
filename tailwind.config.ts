@@ -7,6 +7,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        "scroll-down": "scroll 2s ease infinite",
+      },
       colors: {
         primary: "var(--primary)",
         background: "var(--background)",

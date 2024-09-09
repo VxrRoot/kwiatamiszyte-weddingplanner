@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const OfferSection = () => {
   return (
-    <section className="pt-40 pb-32">
+    <section className="pt-40 pb-32" id="uslugi">
       <div className="border-t border-primary w-full relative">
         <h2 className="uppercase absolute left-1/2 whitespace-nowrap -translate-y-1/2 bg-creme lg:text-4xl text-primary  text-2xl -translate-x-1/2 lg:px-10 px-4">
           Poznaj naszą ofertę

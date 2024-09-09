@@ -1,8 +1,7 @@
 "use client";
+import Logo from "@/icons/Logo";
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../../public/logo.png";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,23 +23,33 @@ function Nav() {
     <nav className="w-full h-full flex">
       <div className="hidden lg:flex text-white w-full ">
         <div className="flex-1 flex items-center justify-around">
-          <Link href="#" className="uppercase text-xl font-bold">
+          <Link
+            href="#o-nas"
+            className="uppercase text-xl font-bold cursor-pointer border-b border-transparent hover:border-white transition-all"
+          >
             O nas
           </Link>
-          <Link href="#" className="uppercase text-xl font-bold">
+          <Link
+            href="#nasz-zespol"
+            className="uppercase text-xl font-bold cursor-pointer border-b border-transparent hover:border-white transition-all"
+          >
             Nasz zespół
           </Link>
         </div>
-        <div className="flex-1 flex justify-center">
-          <div className="border-logo  w-[300px] bg-creme flex justify-center items-center">
-            <Image alt="" src={logo} className="-mt-4" />
-          </div>
+        <div className="flex-1 flex justify-center max-w-[200px] h-[100px] [&_svg]:fill-white">
+          <Logo />
         </div>
         <div className="flex-1 flex items-center justify-around">
-          <Link href="#" className="uppercase text-xl font-bold">
+          <Link
+            href="#uslugi"
+            className="uppercase text-xl font-bold cursor-pointer border-b border-transparent hover:border-white transition-all"
+          >
             Usługi
           </Link>
-          <Link href="#" className="uppercase text-xl font-bold">
+          <Link
+            href="#kontakt"
+            className="uppercase text-xl font-bold cursor-pointer border-b border-transparent hover:border-white transition-all"
+          >
             Kontakt
           </Link>
         </div>
@@ -52,23 +61,42 @@ function Nav() {
         }`}
       >
         <div className="flex flex-col gap-20">
-          <Link href="#" className="uppercase text-xl font-bold text-center">
+          <Link
+            href="#o-nas"
+            className="uppercase text-xl font-bold text-center"
+          >
             O nas
           </Link>
-          <Link href="#" className="uppercase text-xl font-bold text-center">
+          <Link
+            href="#nasz-zespol"
+            className="uppercase text-xl font-bold text-center"
+          >
             Nasz zespół
           </Link>
-          <Link href="#" className="uppercase text-xl font-bold text-center">
+          <Link
+            href="#uslugi"
+            className="uppercase text-xl font-bold text-center"
+          >
             Usługi
           </Link>
-          <Link href="#" className="uppercase text-xl font-bold text-center">
+          <Link
+            href="#kontakt"
+            className="uppercase text-xl font-bold text-center"
+          >
             Kontakt
           </Link>
         </div>
       </div>
-      <div className="flex lg:hidden relative z-30 items-center justify-between w-full">
-        <div className="border-logo  w-[300px] bg-creme flex justify-center items-center">
+      <div className="flex lg:hidden relative z-30 items-center justify-between w-full ">
+        {/* <div className="border-logo  w-[300px] bg-creme flex justify-center items-center">
           <Image alt="" src={logo} className="-mt-4" />
+        </div> */}
+        <div
+          className={`w-44 py-4 transition-all ${
+            isOpen ? "[&_svg]:fill-black" : "[&_svg]:fill-white"
+          }`}
+        >
+          <Logo />
         </div>
         <div>
           <button

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   return (
-    <section className="py-40">
+    <section className="py-40 " id="o-nas">
       <ContainerLayout>
         <div className="flex flex-col lg:flex-row">
           <div className="basis-1/3 flex items-center  justify-center order-2 lg:order-1">
