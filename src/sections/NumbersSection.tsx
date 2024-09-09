@@ -11,9 +11,7 @@ const NumbersSection = () => {
   return (
     <section className="text-primary pb-8 pt-16">
       <ContainerLayout>
-        <h2 className="text-center mb-20 text-5xl">
-          Dlaczego Warto Nam Zaufać?
-        </h2>
+        <h2 className="text-center mb-20 ">Dlaczego Warto Nam Zaufać?</h2>
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 text-5xl [&_p]:text-2xl"
           ref={ref}

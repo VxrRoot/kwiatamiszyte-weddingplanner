@@ -53,7 +53,7 @@ const OurTeamSection = () => {
     <section className="relative" id="nasz-zespol">
       <Lines />
       <ContainerLayout>
-        <h2 className="text-center text-primary pb-32 text-5xl">Nasz zespół</h2>
+        <h2 className="text-center text-primary pb-32 ">Nasz zespół</h2>
         <div className="flex justify-center gap-20 flex-wrap">
           {teamMembers.map((member, index) => (
             <motion.div

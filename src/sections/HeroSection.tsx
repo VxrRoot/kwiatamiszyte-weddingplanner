@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="h-screen">
+    <section className="h-dvh">
       <HeroSlider />
       <ContainerLayout>
         <div className="z-10 absolute bottom-0 pb-20 max-w-6xl">

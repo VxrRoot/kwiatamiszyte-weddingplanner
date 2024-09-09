@@ -17,10 +17,10 @@ const AboutSection = () => {
             />
           </div>
           <div className="basis-2/3 justify-center items-center lg:px-20 order-1 lg:order-2 flex flex-col">
-            <h2 className="text-5xl text-center font-normal">
+            <h2 className=" text-center font-normal">
               ZAPLANUJEMY WESELE WASZYCH MARZEŃ!
             </h2>
-            <p className="text-xl text-center mt-10">
+            <p className="text-xl lg:text-2xl text-center mt-10">
               Witajcie! <br /> Jesteśmy zespołem profesjonalnych wedding
               plannerów z wieloletnim doświadczeniem w organizacji ślubów
               marzeń. Naszym celem jest tworzenie niezapomnianych chwil, które
@@ -32,7 +32,7 @@ const AboutSection = () => {
             </p>
             <Link
               href="#"
-              className="mt-20 text-xl bg-[#E0CDBE] py-2 px-8 rounded-lg"
+              className="mt-20 text-xl bg-[#E0CDBE] pb-2 pt-2.5 px-8  uppercase"
             >
               Zobacz realizacje
             </Link>

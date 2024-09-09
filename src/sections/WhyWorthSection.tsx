@@ -16,10 +16,10 @@ const WhyWorthSection = () => {
   return (
     <section className="pt-20 mb-40 text-primary">
       <ContainerLayout>
-        <h2 className="text-center text-5xl">
+        <h2 className="text-center ">
           Co daje współpraca z wedding plannerem?
         </h2>
-        <div className="grid mt-20 gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
+        <div className="grid [&_h3]:text-3xl mt-20 gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
           {/* Item */}
           <motion.div
             transition={{
@@ -37,7 +37,7 @@ const WhyWorthSection = () => {
               once: true,
               margin: "-200px",
             }}
-            className="text-4xl bg-[#F9F5F4] p-8  drop-shadow-md"
+            className=" bg-[#F9F5F4] p-8  drop-shadow-md"
           >
             <div className="flex items-center [&_svg]:h-auto [&_svg]:w-12 h-20 ">
               <TimeIcon />
@@ -70,7 +70,7 @@ const WhyWorthSection = () => {
               once: true,
               margin: "-200px",
             }}
-            className="text-4xl bg-[#F9F5F4] p-8  drop-shadow-md"
+            className=" bg-[#F9F5F4] p-8  drop-shadow-md"
           >
             <div className="flex items-center [&_svg]:h-auto [&_svg]:w-12 h-20">
               <TruckIcon />
@@ -104,7 +104,7 @@ const WhyWorthSection = () => {
               once: true,
               margin: "-200px",
             }}
-            className="text-4xl bg-[#F9F5F4] p-8  drop-shadow-md"
+            className=" bg-[#F9F5F4] p-8  drop-shadow-md"
           >
             <div className="flex items-center [&_svg]:h-auto [&_svg]:w-12 h-20">
               <NetworkIcon />
@@ -138,7 +138,7 @@ const WhyWorthSection = () => {
               once: true,
               margin: "-200px",
             }}
-            className="text-4xl bg-[#F9F5F4] p-8  drop-shadow-md"
+            className=" bg-[#F9F5F4] p-8  drop-shadow-md"
           >
             <div className="flex items-center [&_svg]:h-auto [&_svg]:w-12 h-20">
               <HandHearthIcon />
@@ -175,7 +175,7 @@ const WhyWorthSection = () => {
               once: true,
               margin: "-200px",
             }}
-            className="text-4xl bg-[#F9F5F4] p-8  drop-shadow-md"
+            className=" bg-[#F9F5F4] p-8  drop-shadow-md"
           >
             <div className="flex items-center [&_svg]:h-auto [&_svg]:w-12 h-20">
               <HandHearthIcon />
@@ -210,7 +210,7 @@ const WhyWorthSection = () => {
               once: true,
               margin: "-200px",
             }}
-            className="text-4xl bg-[#F9F5F4] p-8  drop-shadow-md"
+            className=" bg-[#F9F5F4] p-8  drop-shadow-md"
           >
             <div className="flex items-center [&_svg]:h-auto [&_svg]:w-12 h-20">
               <BrainIcon />

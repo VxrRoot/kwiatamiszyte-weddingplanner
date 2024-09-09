@@ -4,7 +4,7 @@ import React from "react";
 
 const TesimonialsSection = () => {
   return (
-    <section className="py-40">
+    <section className="pt-40 pb-10 md:pb-40">
       <div>
         <ContainerLayout>
           <TestimonialsSlider />

@@ -127,7 +127,7 @@ const TestimonialsSlider: React.FC = () => {
           <Slider
             {...imageSliderSettings}
             ref={(slider) => setImageSlider(slider)}
-            className="current-slide-image relative w-full md:absolute md:-top-[40rem] md:left-[25rem] md:w-[700px] md:h-[40rem] md:z-[-1] p-10 md:p-0 -mt-20 md:mt-0"
+            className="current-slide-image relative w-full md:absolute md:-top-[40rem] md:left-[25rem] md:w-[700px] h-[20rem] md:h-[40rem] md:z-[-1] p-10 md:p-0 -mt-20 md:mt-0"
           >
             {opinions.map(({ img, author }, idx) => (
               <div key={idx} className="w-[700px] h-[43rem] mt-4">
@@ -136,7 +136,7 @@ const TestimonialsSlider: React.FC = () => {
                   height={700}
                   src={img.src}
                   alt={author}
-                  className="w-[700px] h-[43rem] object-cover"
+                  className="w-[700px] h-[20rem] md:h-[43rem] object-cover"
                 />
               </div>
             ))}
