@@ -1,10 +1,6 @@
 import React from "react";
 
-interface IProps {
-  fill?: string;
-}
-
-const Logo = ({ fill }: IProps) => {
+const Logo = () => {
   return (
     <svg viewBox="0 0 729 284" fill="none" xmlns="http://www.w3.org/2000/svg">
       <mask

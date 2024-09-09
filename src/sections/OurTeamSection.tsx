@@ -1,16 +1,14 @@
 "use client";
-import { FlipWords } from "@/components/FlipWords";
+import Lines from "@/components/Lines";
 import { ProfileCard } from "@/components/ProfileCard/ProfileCard";
 import FloristIcon from "@/icons/FloristIcon";
 import HairDresserIcon from "@/icons/HairDresserIcon";
 import PhotographIcon from "@/icons/PhotographIcon";
 import ContainerLayout from "@/layouts/ContainerLayout";
-import React from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import ania from "../../public/ania.png";
-import karolina from "../../public/karolina.png";
 import anita from "../../public/anita.png";
-import Lines from "@/components/Lines";
+import karolina from "../../public/karolina.png";
 
 const OurTeamSection = () => {
   const teamMembers = [

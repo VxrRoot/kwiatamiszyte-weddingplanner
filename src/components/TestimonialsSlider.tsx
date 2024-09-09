@@ -98,7 +98,7 @@ const TestimonialsSlider: React.FC = () => {
           </h2>
           <Slider
             {...mainSliderSettings}
-            ref={(slider: unknown) => setMainSlider(slider)}
+            ref={(slider) => setMainSlider(slider)}
             className="[&_.slick-track]:flex [&_.slick-track]:gap-4 cursor-pointer py-16"
           >
             {opinions.map(({ text, id, author }, idx) => (
@@ -126,8 +126,8 @@ const TestimonialsSlider: React.FC = () => {
         <div className="md:block bg-[#F9F5F4] md:bg-transparent">
           <Slider
             {...imageSliderSettings}
-            ref={(slider: unknown) => setImageSlider(slider)}
-            className="current-slide-image relative w-full md:absolute md:-top-[40rem] md:left-[25rem] md:w-[700px] md:h-[40rem] md:z-[-1] p-10"
+            ref={(slider) => setImageSlider(slider)}
+            className="current-slide-image relative w-full md:absolute md:-top-[40rem] md:left-[25rem] md:w-[700px] md:h-[40rem] md:z-[-1] p-10 md:p-0 -mt-20 md:mt-0"
           >
             {opinions.map(({ img, author }, idx) => (
               <div key={idx} className="w-[700px] h-[43rem] mt-4">
